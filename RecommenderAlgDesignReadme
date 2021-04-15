@@ -1,0 +1,11 @@
+This lesson plan is liscened under CC-BY-SA.
+
+This lesson was designed for a junior level undergraduate course in data science for students in and information science program (mid-levels of programming skill but unfortunately not all in the same programming languages).  
+
+Uses Python in notebooks, introduces cloud computing concepts, and algorithm design processes.
+
+Currently based around databricks, it can also be done with a local jupyter hub or simply jupyter on the students' own computers without the cloud component (though note the dropdown used to let the 'user' select a movie is currently implemenet through a databricks only feature so changing to another platform will require tweaking that).
+
+The datasets used in this lesson are the Movie Lens development edition (the smaller size is important!  It takes quite long enough for the average student computer to run a correlation matrix on 1MB/9000 movies - it's a good time to explain to them the why of development data sets and also the reason the correlation matrix calculations are position before the user 'sits down at the computer' in the script... i.e. so your user isn't sitting around waiting for it to run!) - that data is here: https://grouplens.org/datasets/movielens/ -- scroll down to "ml-latest-small.zip" - you'll only need the movies and ratings csv files from the set.
+
+Additionally, for easier import into a cloud notebook like databricks directly, here is the public html link version of the included .py file: https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/3639168892321308/2517571602221370/814302886059148/latest.html
